@@ -152,14 +152,14 @@ const MainPage = () => {
                         </div>
                         <Button onClick={() => resetData(true)} view='white'>Add a note</Button>
                     </BlueBlock>
-                    <BlueBlock side='right' className={change ? 'open' : ''}>
+                    <BlueBlock addClass="between" side='right' className={change ? 'open' : ''}>
                         <div className={`d-flex between items-center`}>
                             <h2>Change a note <span>| {status}</span></h2>
                             <img className={`cursor-pointer transition_0_3 ${styles['close-change']}`} 
                                 onClick={() => setChange(false)}alt="close" src={close}>
                             </img>
                         </div>
-                        <form id='note' className={styles['info-note']}>
+                        <form id='note' className={`d-flex ${styles['info-note']}`}>
                             <div className={`${styles['for-info']} d-flex between`}>
                                 <InputWithError value={name} errorshow={error ? 'show' : ''} placeholder='Name a note' errortext="Empty field"
                                     onKeyUp={() => name.length < 1 ? setError(true) : setError(false)}
