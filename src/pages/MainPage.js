@@ -104,7 +104,7 @@ const MainPage = () => {
         } else { // если заметка новая
             let newData = DB.slice(); // создаем новый массив с данными как в BD
             newData[DB.length] = { // записываем данные в новый созданный массив в последний созданный id 
-                id: DB[DB.length - 1].id + 1, // присваиваем id 
+                id: DB.length === 0 ? 0 : DB[DB.length - 1].id + 1, // присваиваем id 
                 name: name, // присваиваем имя
                 status: status, // присваиваем статус
                 colorStatus: colorStatus, // присваиваем цвет статуса
