@@ -117,7 +117,7 @@ const MainPage = () => {
         setChange(false) // закрываем редактор
     }
 
-    return ( // Возращаем верстку ||
+    return ( // Возращаем верстку
         <>
             <header>
                 <div className={`${styles.header} margin-auto d-flex items-center between`}>
