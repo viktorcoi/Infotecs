@@ -121,10 +121,10 @@ const MainPage = () => {
         <>
             <header>
                 <div className={`${styles.header} margin-auto d-flex items-center between`}>
-                    <a href="./">
+                    <a href="/">
                         <img className="transition_0_3" alt='logo' src={logo}></img>
                     </a>
-                    <Button onClick={() => resetData(true)} view="header">Add a gnote</Button>
+                    <Button onClick={() => resetData(true)} view="header">Add a note</Button>
                 </div>
             </header>
 
