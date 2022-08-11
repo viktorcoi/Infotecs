@@ -124,7 +124,7 @@ const MainPage = () => {
                     <a href="./">
                         <img className="transition_0_3" alt='logo' src={logo}></img>
                     </a>
-                    <Button onClick={() => resetData(true)} view="header">Add a note</Button>
+                    <Button onClick={() => resetData(true)} view="header">Add a gnote</Button>
                 </div>
             </header>
 
