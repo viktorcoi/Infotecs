@@ -1,0 +1,46 @@
+@import '../../assets/css/vars';
+
+.bg-popup, .for-close {
+    z-index: 5;
+    top: 0; left: 0; right: 0; bottom: 0;
+    position: fixed;
+}
+
+.bg-popup {
+    overflow: auto;
+    padding: 1em;
+    background-color: @BGPopup;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    visibility: hidden;
+    opacity: 0;
+    &.open {
+        visibility: visible;
+        opacity: 1;
+        & .popup {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+.popup {
+    width: max(29.88em, 290px);
+    padding: max(2.19em, 25px) max(1.88em, 20px);
+    z-index: 6;
+    transform: translateY(-100vh);
+    opacity: 0;
+    .for-buttons {
+        margin-top: max(1.88em, 20px);
+        button {
+            width: 48%;
+        }
+    }
+    img {
+        width: max(1.25em, 15px);
+        height: max(1.25em, 15px);
+        &:hover {
+            filter: brightness(70%);
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import '../../assets/css/vars';
+
+.button {
+    border: unset;
+    padding: max(.77rem, 9.5px) max(1.88rem, 22px);
+    font-size: @15px;
+    font-weight: 700;
+    line-height: 136.4%;
+    &.header {
+        background-color: @BGColorBlocks;
+        color: @SecontColorTextWhite;
+        &:hover {
+            background-color: @SecontColorTextWhite;
+            color: @BGColorBlocks;
+        }
+    }
+    &.white {
+        background-color: @SecontColorTextWhite;
+        color: @BGColorNote;
+        &:hover {
+            background-color: @BGColorNote;
+            color: @SecontColorTextWhite;
+        }
+    }
+    &.blue {
+        color: @SecontColorTextWhite;
+        background-color: @BGColorNote;
+        &:hover {
+            color: @BGColorNote;
+            background-color: @SecontColorTextWhite;
+        }
+    }
+}

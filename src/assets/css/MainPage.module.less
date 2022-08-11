@@ -1,0 +1,75 @@
+@import "vars";
+
+.header {
+    width: min(92vw, 1170px);
+    padding: 15px 0;
+    a {
+        line-height: 0;
+        &:hover img {
+            filter: brightness(70%);
+        }
+        img {
+            width: max(11.06rem, 138px);
+            height: max(2.81rem, 35px);
+        }
+    }
+}
+
+.list-notes {
+    margin: max(1.25em, 15px) 0;
+    height: max(22.69em, 300px);
+    border: 1px solid @SecontColorTextWhite;
+    padding: max(1.25em, 15px) max(.94em, 10px);
+    overflow: overlay;
+    &::-webkit-scrollbar {
+        width: 8px;       
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent; 
+    }
+    &::-webkit-scrollbar-button {
+        height: auto;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: @BGColorNote;
+        border-radius: 20px;
+    }
+}
+
+.close-change {
+    width: max(1.06em, 14px);
+    height: max(1.06em, 14px);
+    &:hover {
+        filter: brightness(70%);
+    }
+}
+
+.for-buttons {
+    button {
+        width: max(48.4%, 125px);
+    }
+}
+
+.info-note {
+    margin: max(1.25em, 15px) 0;
+    height: 100%;
+}
+
+.for-info {
+    margin-bottom: max(1.25em, 15px);
+    > div {
+        width: 48.4%;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .for-info {
+        flex-direction: column;
+        > div {
+            width: 100%;
+            &:first-child {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+@import '../../assets/css/vars';
+
+.input, .textarea, .selector {
+    border: 1px solid @SecontColorTextWhite;
+    color: @SecontColorTextWhite;
+    background-color: unset;
+    font-weight: 400;
+    font-size: @14px;
+    width: 100%;
+    padding: max(.81rem, 9.5px) max(1.38rem, 15px);
+    &::placeholder {
+        color: @ColorInputPlaceholder; 
+    }
+    &.search {
+        background-image: url(../../assets/img/search.svg);
+        background-repeat: no-repeat;
+        background-position: max(1.38rem, 15px) center;
+        padding-left: max(3.13rem, 38px);
+    }
+    &.show {
+        border: 1px solid @ColorError;
+    }
+}
+
+
+.textarea {
+    resize: none;
+    min-height: max(82.3%, 211px);       
+}
+
+.error {
+    padding: 3px max(.94em, 10px);
+    background-color: @ColorError;
+    right: max(1.38em, 15px);
+    opacity: 0;
+    visibility: hidden;
+    &.show {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.selector {
+    &+img {
+        width: max(0.91em, 13px);
+        height: max(.5em, 7px);
+        right: max(1.38rem, 15px);
+        &.open {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.for-option {
+    width: 85%;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 0px 0px @Border22px @Border22px;
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    &.open {
+        box-shadow: 0px 7px 10px 2px rgba(0, 0, 0, 0.35);
+        visibility: visible;
+        opacity: 1;
+        max-height: 150px;
+    }
+    output {
+        border: 1px solid @SecontColorTextWhite;
+        border-top: unset;
+        background-color: @BGColorBlocks;
+        color: @SecontColorTextWhite;
+        width: 100%;
+        display: block;
+        padding: max(.44rem, 5px) max(1.31rem, 17px);
+        font-size: @14px;
+        &:last-child {
+            border-radius: 0px 0px @Border22px @Border22px;
+        }
+        &:hover {
+            background-color: @SecontColorTextWhite;
+            color: @BGColorBlocks;
+        }
+    }
+}
+
+@media screen and (max-width:475px) {
+    .textarea {
+        min-height: 217px;
+    }
+}
