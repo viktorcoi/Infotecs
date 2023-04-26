@@ -11,10 +11,10 @@ Online example: https://viktorcoi.github.io/Infotecs/
 ## Screenshots
 <table width="100" align="center">
     <td align="center">
-        <img src="./src/assets/img/screenshot_0.png" width="600" height="396" alt="css3"/>
+        <img src="./src/assets/img/screenshot_0.png" width="379" height="250" alt="css3"/>
     </td>
     <td align="center">
-        <img src="./src/assets/img/screenshot_1.png" width="600" height="396" alt="sass">
+        <img src="./src/assets/img/screenshot_1.png" width="379" height="250" alt="sass">
     </td>
 </table>
 
