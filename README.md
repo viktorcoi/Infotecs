@@ -2,14 +2,13 @@
 The test task for the FrontEnd react developer vacancy for the Infotecs company was completed in ReactJs.
 - Adaptive layout up to 320px;
 - Cross-browser layout;
-https://viktorcoi.github.io/Infotecs/
+- Styled less preprocessor;
+- Modular styles are used;
+- The application is made on ReactJS;
+
+Online example: https://viktorcoi.github.io/Infotecs/
 
 # Default information
-
-
-
-
-
 
 ## Getting Started with Create React App
 
