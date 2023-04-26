@@ -8,6 +8,16 @@ The test task for the FrontEnd react developer vacancy for the Infotecs company 
 
 Online example: https://viktorcoi.github.io/Infotecs/
 
+## Screenshots
+<table width="100" align="center">
+    <td align="center">
+        <img src="./src/assets/img/screenshot_0.png" width="600" height="396" alt="css3"/>
+    </td>
+    <td align="center">
+        <img src="./src/assets/img/screenshot_1.png" width="600" height="396" alt="sass">
+    </td>
+</table>
+
 # Default information
 
 ## Getting Started with Create React App
