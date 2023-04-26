@@ -1,3 +1,16 @@
+# Test task Infotecs
+The test task for the FrontEnd react developer vacancy for the Infotecs company was completed in ReactJs.
+- Adaptive layout up to 320px;
+- Cross-browser layout;
+https://viktorcoi.github.io/Infotecs/
+
+# Default information
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
