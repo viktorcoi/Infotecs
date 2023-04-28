@@ -1,12 +1,12 @@
 # Test task Infotecs
 The test task for the FrontEnd react developer vacancy for the Infotecs company was completed in ReactJs.
+<br/>
+<a href="https://viktorcoi.github.io/Infotecs/">Click here to view the git page online</a>
 - Adaptive layout up to 320px;
 - Cross-browser layout;
 - Styled less preprocessor;
 - Modular styles are used;
 - The application is made on ReactJS;
-
-Online example: https://viktorcoi.github.io/Infotecs/
 
 ## Screenshots
 <table width="100" align="center">
